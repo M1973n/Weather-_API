@@ -1,0 +1,220 @@
+/* Weather.css */
+
+.box {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputData {
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.info {
+    text-align: center;
+}
+
+.Location {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.Humidity{
+    font-size: 16px;
+    color:#666
+}
+.pressure{
+    font-size: 16px;
+    color:#666
+}
+
+.temp_max {
+    font-size: 16px;
+    color: #666;
+}
+
+.wave-one,
+.wave-two,
+.wave-three {
+    height: 30px;
+    margin-top: 20px;
+    background-color: #cceeff;
+    border-radius: 50%;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.wave-two {
+    animation-delay: 0.3s;
+}
+
+.wave-three {
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.wave-one {
+    animation-name: wave;
+}
+
+.wave-two {
+    animation-name: wave;
+}
+
+.wave-three {
+    animation-name: wave;
+}
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1 {
+    display: inline-block;
+    color: red;
+    animation: blink 1s infinite;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    background: #2c2c2c;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+.card__name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.card__total {
+    font-size: 3em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.card:nth-child(1) {
+    background-color: #0056b3;
+}
+
+.card:nth-child(2) {
+    background-color: #28a745;
+}
+
+.card:nth-child(3) {
+    background-color: #ffc107;
+}
+
+.card:nth-child(4) {
+    background-color: #dc3545;
+}
+
+.card:nth-child(5) {
+    background-color: #007bff;
+}
+
+.card:nth-child(6) {
+    background-color: #6c757d;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+}
+
+
+  
+   */
